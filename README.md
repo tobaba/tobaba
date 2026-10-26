@@ -1,64 +1,63 @@
 <div align="center">
+  <img src="assets/hero.svg" width="960" alt="Tobaba — Windows 桌面工具">
+</div>
 
-# Tobaba
+<div align="center">
 
-独立开发者 · Windows 桌面工具
-
-<sub>做东西只认一条标准：自己每天愿意用。</sub>
-
-<br>
-
-<a href="https://github.com/tobaba/UCalendar">
-  <img src="https://raw.githubusercontent.com/tobaba/UCalendar/main/assets/readme/panel.png" width="860" alt="UCalendar 主面板">
-</a>
-
-<br><br>
-
-**UCalendar** — 日历、日程、待办、黄历、天气、番茄钟，都挂在任务栏时钟上
-
-<a href="https://github.com/tobaba/UCalendar/releases/latest"><img src="https://img.shields.io/badge/下载-8MB%20单文件-cca85b?style=for-the-badge" alt="下载"></a>
-<a href="https://github.com/tobaba/UCalendar"><img src="https://img.shields.io/badge/源码-UCalendar-24292f?style=for-the-badge&logo=github&logoColor=white" alt="源码"></a>
+<a href="https://github.com/tobaba/UCalendar/releases/latest"><img src="https://img.shields.io/badge/下载-UCalendar%20v2.1.1-cca85b?style=for-the-badge" alt="下载"></a>
+<a href="https://github.com/tobaba/UCalendar"><img src="https://img.shields.io/badge/源码-tobaba%2FUCalendar-24292f?style=for-the-badge&logo=github&logoColor=white" alt="源码"></a>
 <a href="https://github.com/tobaba/UCalendar/issues"><img src="https://img.shields.io/badge/反馈-提%20Issue-4a7de8?style=for-the-badge" alt="反馈"></a>
 
 </div>
 
-<br>
+<p align="center">
+  <img src="assets/panel-card.png" width="900" alt="UCalendar 主面板：月历、日程、待办、黄历、天气">
+</p>
+
+<p align="center"><sub>左键点任务栏时钟 —— 今天有没有会、这周还剩多少事，一眼看完</sub></p>
+
+---
+
+### 我做的东西只有一条标准：自己每天愿意用。
+
+**UCalendar** 把日历、日程、待办、黄历、天气、番茄钟塞进任务栏。8 MB 单文件，双击即用，数据全在本机：不注册、不订阅、不联网也能用。
+
+- **一句话建日程** —— 对 AI 说「明天下午三点开会，提前 15 分钟提醒」，它直接写进日历，而不是陪你聊天
+- **任务栏就是入口** —— 左键面板、右键菜单、`Ctrl+Alt+C` 全局呼出，不占桌面、不进 Dock
+- **9 个桌面组件** —— 位置、透明度、鼠标穿透都能调；不想看就收成 40px 摘要条
+- **8 MB 绿色版** —— 不用安装器、不写注册表，放 U 盘里就能带走
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top">
-  <img src="https://raw.githubusercontent.com/tobaba/UCalendar/main/assets/readme/ai.png" height="220" alt="AI 小秘书"><br>
-  <b>一句话建日程</b><br>
-  <sub>说「明天下午三点开会」<br>它真的写进日历</sub>
+<td width="50%" align="center" valign="top">
+  <img src="assets/feat-ai.png" width="290" alt="AI 小秘书"><br>
+  <b>会动手的小秘书</b>
 </td>
-<td width="33%" align="center" valign="top">
-  <img src="https://raw.githubusercontent.com/tobaba/UCalendar/main/assets/readme/calendar.png" height="220" alt="月历"><br>
-  <b>桌面上的月历</b><br>
-  <sub>日程、待办、黄历、天气<br>一屏看完</sub>
+<td width="50%" align="center" valign="top">
+  <img src="assets/feat-todo.png" width="250" alt="待办"><br>
+  <b>今天 / 逾期 / 已完成，分得清</b>
 </td>
-<td width="33%" align="center" valign="top">
-  <img src="https://raw.githubusercontent.com/tobaba/UCalendar/main/assets/readme/pomodoro.png" height="220" alt="番茄钟"><br>
-  <b>番茄钟 · 倒计时</b><br>
-  <sub>绑定任务、统计专注<br>和日历共用一套提醒</sub>
+</tr>
+<tr>
+<td align="center" valign="top">
+  <img src="assets/feat-pomodoro.png" width="290" alt="番茄钟组件"><br>
+  <b>番茄钟：绑定任务、统计专注</b>
+</td>
+<td align="center" valign="top">
+  <img src="assets/feat-weather.png" width="240" alt="天气组件"><br>
+  <b>天气组件：逐时 + 3 天预报</b>
 </td>
 </tr>
 </table>
 
 ---
 
-## 关于我
+## 找得到我
 
-一个人做 Windows 桌面工具。
-
-不用 Electron 套壳的笨重，也不想让你注册账号、绑定手机、把习惯数据交出去。
-技术栈 **Tauri + Rust + React / TypeScript**，界面走系统自带的 WebView，所以体积能压到几 MB。偏爱单文件、免安装、随时能删干净的东西。
-
-> 如果哪个工具帮你省了每天那几次切窗口，给个 **Star** 或提个 **Issue**，都是我继续做的理由。
-
-## 联系
-
-- **反馈 / 功能建议** → [UCalendar Issues](https://github.com/tobaba/UCalendar/issues)（比私信快）
+- **用着不顺手 / 想要新功能** → [开 Issue](https://github.com/tobaba/UCalendar/issues)，我基本都会回
 - **其他事情** → tobestway@foxmail.com
+
+> 如果它帮你省下每天那几次切窗口，**Star** 一下就是最实在的支持 —— 也让更多人看到这个项目。
 
 <br>
 
@@ -66,4 +65,3 @@
 <sub>Independent developer building small, local-first Windows desktop tools.<br>
 UCalendar: a desktop calendar with an AI assistant that actually creates events — 8 MB, no account, all data local.</sub>
 </div>
-
