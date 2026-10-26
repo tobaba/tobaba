@@ -51,7 +51,7 @@
 一个人做 Windows 桌面工具。
 
 不用 Electron 套壳的笨重，也不想让你注册账号、绑定手机、把习惯数据交出去。
-主要写 **C# / .NET + WebView2**，偏爱单文件、免安装、随时能删干净的东西。
+技术栈 **Tauri + Rust + React / TypeScript**，界面走系统自带的 WebView，所以体积能压到几 MB。偏爱单文件、免安装、随时能删干净的东西。
 
 > 如果哪个工具帮你省了每天那几次切窗口，给个 **Star** 或提个 **Issue**，都是我继续做的理由。
 
@@ -66,3 +66,4 @@
 <sub>Independent developer building small, local-first Windows desktop tools.<br>
 UCalendar: a desktop calendar with an AI assistant that actually creates events — 8 MB, no account, all data local.</sub>
 </div>
+
