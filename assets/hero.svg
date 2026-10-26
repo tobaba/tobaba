@@ -1,70 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-label="Tobaba — Windows 桌面工具">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Tobaba — local-first desktop tools for Windows">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#101017"/>
-      <stop offset="0.55" stop-color="#191327"/>
-      <stop offset="1" stop-color="#0d0d13"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#07060c"/>
+      <stop offset="1" stop-color="#0c0918"/>
     </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f6f2ff"/>
-      <stop offset="0.7" stop-color="#ded1ff"/>
-      <stop offset="1" stop-color="#cca85b"/>
-    </linearGradient>
-    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#cbb8f8" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#8f79c9" stop-opacity="0.75"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#b49cf0" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#b49cf0" stop-opacity="0"/>
+    <radialGradient id="violet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b6cff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="cyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4de1ff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#4de1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#e4dbff"/>
+      <stop offset="1" stop-color="#9d81ff"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4de1ff"/>
+      <stop offset="0.5" stop-color="#8b6cff"/>
+      <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b6cff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#b79bff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
+    </linearGradient>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="card">
-      <rect x="1" y="1" width="958" height="238" rx="22"/>
-    </clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#8b6cff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8b6cff" fill-opacity="0.10"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
   </defs>
 
-  <g clip-path="url(#card)">
-    <rect width="960" height="240" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#grid)"/>
+  <rect x="620" y="0" width="580" height="380" fill="url(#dots)"/>
 
-    <circle cx="820" cy="40" r="200" fill="url(#glow)">
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="220" r="170" fill="url(#glow)" opacity="0.5"/>
+  <ellipse cx="1010" cy="80" rx="380" ry="240" fill="url(#violet)"/>
+  <ellipse cx="120" cy="360" rx="330" ry="200" fill="url(#cyan)"/>
 
-    <rect x="-320" y="-80" width="220" height="400" fill="url(#sweep)" transform="rotate(12 480 120)">
-      <animate attributeName="x" values="-320;1100" dur="9s" repeatCount="indefinite"/>
-    </rect>
+  <g fill="none" stroke="#4de1ff" stroke-opacity="0.30" stroke-width="1.2">
+    <path d="M0 40 H210"/>
+    <path d="M0 358 H150 l22 -22 H470"/>
+    <path d="M620 60 H700 l24 -22 H960"/>
+  </g>
+  <g fill="none" stroke="#8b6cff" stroke-width="1.6" stroke-linecap="round">
+    <path id="flow1" d="M0 40 H210" stroke-dasharray="34 260" stroke-opacity="0.9">
+      <animate attributeName="stroke-dashoffset" values="300;0" dur="5.5s" repeatCount="indefinite"/>
+    </path>
+    <path id="flow2" d="M620 60 H700 l24 -22 H960" stroke-dasharray="26 520" stroke-opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="560;0" dur="5.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#b79bff">
+    <circle cx="210" cy="40" r="3"/>
+    <circle cx="470" cy="336" r="3"/>
+    <circle cx="724" cy="38" r="3"/>
+    
+  </g>
 
-    <text x="56" y="92" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="52" font-weight="700" fill="url(#name)">Tobaba</text>
-    <text x="57" y="128" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="19" fill="#b7afce">把日历钉在任务栏上 · 一个人维护的 Windows 桌面工具</text>
-    <g font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="13" fill="#cfc6e8">
-      <rect x="56" y="158" width="98" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="105" y="178" text-anchor="middle">Tauri 2 · Rust</text>
-      <rect x="164" y="158" width="110" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="219" y="178" text-anchor="middle">React · TS</text>
-      <rect x="284" y="158" width="126" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="347" y="178" text-anchor="middle">Windows 10 / 11</text>
-    </g>
+  <text x="72" y="96" font-family="Consolas, ui-monospace, monospace" font-size="12" letter-spacing="5" fill="#6f6690">/// LOCAL-FIRST DESKTOP SOFTWARE</text>
 
-    <g transform="translate(700 46)">
-      <rect width="200" height="148" rx="18" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/>
-      <rect x="16" y="16" width="168" height="84" rx="14" fill="url(#tile)" fill-opacity="0.22" stroke="#d8c8ff" stroke-opacity="0.35"/>
-      <text x="30" y="76" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#f4efff">24</text>
-      <text x="96" y="54" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="13" fill="#e7dcff">星期六</text>
-      <text x="96" y="76" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="13" fill="#cfc0ef" fill-opacity="0.8">九月十五</text>
-      <text x="30" y="126" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="12" fill="#b7a9d8">6 日程 · 4 待办</text>
-      <text x="100" y="176" font-family="Segoe UI, Helvetica Neue, Microsoft YaHei, sans-serif" font-size="12" fill="#9d93bd" text-anchor="middle">UCalendar · v2.1.1</text>`n      <circle cx="176" cy="30" r="3" fill="#cca85b">
-        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
-      </circle>
+  <text x="68" y="196" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="92" font-weight="800" letter-spacing="1" fill="url(#name)">TOBABA</text>
+
+  <rect x="72" y="218" width="300" height="3" rx="1.5" fill="url(#rule)">
+    <animate attributeName="width" values="300;420;300" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="72" y="258" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="18" fill="#b6add2">Windows 桌面工具 · 一个人做 · 数据全在本机</text>
+
+  <g font-family="Consolas, ui-monospace, monospace" font-size="12.5" fill="#8f86ab">
+    <rect x="72" y="284" width="152" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+    <text x="148" y="304" text-anchor="middle" fill="#cfc4ee">Tauri + Rust</text>
+    <rect x="236" y="284" width="152" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+    <text x="312" y="304" text-anchor="middle" fill="#cfc4ee">React + TS</text>
+    <rect x="400" y="284" width="132" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+    <text x="466" y="304" text-anchor="middle" fill="#cfc4ee">8 MB exe</text>
+  </g>
+
+  <g>
+    <rect x="736" y="56" width="400" height="258" rx="14" fill="#0b0914" stroke="#2c2344" stroke-width="1.2"/>
+    <path d="M736 70 a14 14 0 0 1 14 -14 h372 a14 14 0 0 1 14 14 v12 h-400 Z" fill="#120e22"/>
+    <circle cx="760" cy="72" r="4" fill="#ff5f57"/>
+    <circle cx="776" cy="72" r="4" fill="#febc2e"/>
+    <circle cx="792" cy="72" r="4" fill="#28c840"/>
+    <text x="936" y="76" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#6f6690">powershell — UCalendar</text>
+
+    <g font-family="Consolas, ui-monospace, monospace" font-size="12.5">
+      <text x="758" y="118" fill="#6f6690">PS D:\dev&gt;</text>
+      <text x="838" y="118" fill="#e6dfff">.\build.ps1</text>
+
+      <text x="758" y="148" fill="#4de1ff" fill-opacity="0.75">  Compiling</text>
+      <text x="838" y="148" fill="#b6add2">ucalendar v2.1.1</text>
+
+      <text x="758" y="176" fill="#4de1ff" fill-opacity="0.75">   Finished</text>
+      <text x="838" y="176" fill="#b6add2">release [8.0 MB]</text>
+
+      <text x="758" y="206" fill="#6f6690">PS D:\dev&gt;</text>
+      <text x="838" y="206" fill="#e6dfff">.\UCalendar.exe</text>
+
+      <text x="758" y="236" fill="#7ee0b0">✓ tray + clock ready</text>
+
+      <text x="758" y="276" fill="#8b6cff">&gt;</text>
+      <rect x="774" y="265" width="8" height="14" fill="#b79bff">
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
 
-  <rect x="1" y="1" width="958" height="238" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g>
+    <rect x="150" y="120" width="130" height="64" fill="url(#sweep)" opacity="0.09" transform="skewX(-18)">
+      <animateTransform attributeName="transform" type="translate" values="-260 0;1160 0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0" y="377" width="1200" height="2" fill="url(#hair)"/>
 </svg>
-
-
