@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Tobaba — local-first desktop tools for Windows">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="UCalendar — Windows 任务栏日历">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
       <stop offset="0" stop-color="#07060c"/>
       <stop offset="1" stop-color="#0c0918"/>
     </linearGradient>
     <radialGradient id="violet" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#8b6cff" stop-opacity="0.38"/>
+      <stop offset="0" stop-color="#8b6cff" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="cyan" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#4de1ff" stop-opacity="0.20"/>
+      <stop offset="0" stop-color="#4de1ff" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#4de1ff" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0.4">
@@ -27,11 +27,6 @@
       <stop offset="0.5" stop-color="#b79bff" stop-opacity="0.5"/>
       <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0 H0 V40" fill="none" stroke="#8b6cff" stroke-opacity="0.055" stroke-width="1"/>
     </pattern>
@@ -39,91 +34,120 @@
       <circle cx="1" cy="1" r="1" fill="#8b6cff" fill-opacity="0.10"/>
     </pattern>
     <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="22"/>
+      <feGaussianBlur stdDeviation="24"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="380" fill="url(#bg)"/>
-  <rect width="1200" height="380" fill="url(#grid)"/>
-  <rect x="620" y="0" width="580" height="380" fill="url(#dots)"/>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect x="640" y="0" width="560" height="400" fill="url(#dots)"/>
 
   <ellipse cx="1010" cy="80" rx="380" ry="240" fill="url(#violet)"/>
-  <ellipse cx="120" cy="360" rx="330" ry="200" fill="url(#cyan)"/>
+  <ellipse cx="120" cy="380" rx="330" ry="200" fill="url(#cyan)"/>
 
-  <g fill="none" stroke="#4de1ff" stroke-opacity="0.30" stroke-width="1.2">
-    <path d="M0 40 H210"/>
-    <path d="M0 358 H150 l22 -22 H470"/>
-    <path d="M620 60 H700 l24 -22 H960"/>
+  <g fill="none" stroke="#4de1ff" stroke-opacity="0.28" stroke-width="1.2">
+    <path d="M0 44 H210"/>
+    <path d="M0 376 H150 l22 -22 H470"/>
+    <path d="M640 64 H700 l24 -22 H960"/>
   </g>
   <g fill="none" stroke="#8b6cff" stroke-width="1.6" stroke-linecap="round">
-    <path id="flow1" d="M0 40 H210" stroke-dasharray="34 260" stroke-opacity="0.9">
+    <path d="M0 44 H210" stroke-dasharray="34 260" stroke-opacity="0.9">
       <animate attributeName="stroke-dashoffset" values="300;0" dur="5.5s" repeatCount="indefinite"/>
     </path>
-    <path id="flow2" d="M620 60 H700 l24 -22 H960" stroke-dasharray="26 520" stroke-opacity="0.8">
+    <path d="M640 64 H700 l24 -22 H960" stroke-dasharray="26 520" stroke-opacity="0.8">
       <animate attributeName="stroke-dashoffset" values="560;0" dur="5.4s" repeatCount="indefinite"/>
     </path>
   </g>
   <g fill="#b79bff">
-    <circle cx="210" cy="40" r="3"/>
-    <circle cx="470" cy="336" r="3"/>
-    <circle cx="724" cy="38" r="3"/>
-    
+    <circle cx="210" cy="44" r="3"/>
+    <circle cx="470" cy="354" r="3"/>
+    <circle cx="724" cy="42" r="3"/>
   </g>
 
-  <text x="72" y="96" font-family="Consolas, ui-monospace, monospace" font-size="12" letter-spacing="5" fill="#6f6690">/// LOCAL-FIRST DESKTOP SOFTWARE</text>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="72" y="92" font-family="Consolas, ui-monospace, monospace" font-size="11" letter-spacing="5" fill="#6f6690">TOBABA / UCALENDAR</text>
 
-  <text x="68" y="196" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="92" font-weight="800" letter-spacing="1" fill="url(#name)">TOBABA</text>
+    <text x="68" y="184" font-size="76" font-weight="800" letter-spacing="1" fill="url(#name)">UCALENDAR</text>
 
-  <rect x="72" y="218" width="300" height="3" rx="1.5" fill="url(#rule)">
-    <animate attributeName="width" values="300;420;300" dur="8s" repeatCount="indefinite"/>
-  </rect>
+    <rect x="72" y="204" width="300" height="3" rx="1.5" fill="url(#rule)">
+      <animate attributeName="width" values="300;420;300" dur="8s" repeatCount="indefinite"/>
+    </rect>
 
-  <text x="72" y="258" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="18" fill="#b6add2">Windows 桌面工具 · 一个人做 · 数据全在本机</text>
+    <text x="72" y="246" font-size="17" fill="#b6add2">日程、待办、月历、便签和 AI，点一下任务栏时钟。</text>
 
-  <g font-family="Consolas, ui-monospace, monospace" font-size="12.5" fill="#8f86ab">
-    <rect x="72" y="284" width="152" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
-    <text x="148" y="304" text-anchor="middle" fill="#cfc4ee">Tauri + Rust</text>
-    <rect x="236" y="284" width="152" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
-    <text x="312" y="304" text-anchor="middle" fill="#cfc4ee">React + TS</text>
-    <rect x="400" y="284" width="132" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
-    <text x="466" y="304" text-anchor="middle" fill="#cfc4ee">8 MB exe</text>
+    <g font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8f86ab">
+      <rect x="72" y="276" width="88" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+      <text x="116" y="295" text-anchor="middle" fill="#cfc4ee">9 组件</text>
+      <rect x="172" y="276" width="96" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+      <text x="220" y="295" text-anchor="middle" fill="#cfc4ee">21 主题</text>
+      <rect x="280" y="276" width="104" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+      <text x="332" y="295" text-anchor="middle" fill="#cfc4ee">本地优先</text>
+      <rect x="396" y="276" width="82" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
+      <text x="437" y="295" text-anchor="middle" fill="#cfc4ee">8 MB</text>
+    </g>
+
+    <text x="72" y="356" font-family="Consolas, ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#5f567a">WINDOWS 10 / 11 · SINGLE FILE · NO ACCOUNT</text>
   </g>
 
-  <g>
-    <rect x="736" y="56" width="400" height="258" rx="14" fill="#0b0914" stroke="#2c2344" stroke-width="1.2"/>
-    <path d="M736 70 a14 14 0 0 1 14 -14 h372 a14 14 0 0 1 14 14 v12 h-400 Z" fill="#120e22"/>
-    <circle cx="760" cy="72" r="4" fill="#ff5f57"/>
-    <circle cx="776" cy="72" r="4" fill="#febc2e"/>
-    <circle cx="792" cy="72" r="4" fill="#28c840"/>
-    <text x="936" y="76" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#6f6690">powershell — UCalendar</text>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <g>
+      <rect x="680" y="64" width="216" height="128" rx="14" fill="#0b0914" fill-opacity="0.78" stroke="#2c2344"/>
+      <g transform="translate(700 88)" fill="none" stroke="#b79bff" stroke-width="1.4" stroke-linecap="round">
+        <circle cx="10" cy="10" r="8"/>
+        <path d="M10 5v5l3 2"/>
+      </g>
+      <text x="876" y="86" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#6f6690">01</text>
+      <rect x="700" y="124" width="18" height="2" rx="1" fill="#8b6cff"/>
+      <text x="700" y="144" font-size="15" font-weight="600" fill="#e6dfff">任务栏即开</text>
+      <text x="700" y="166" font-size="10.5" fill="#8f86ab">点一下时钟，</text>
+      <text x="700" y="182" font-size="10.5" fill="#8f86ab">今天就在眼前。</text>
+    </g>
 
-    <g font-family="Consolas, ui-monospace, monospace" font-size="12.5">
-      <text x="758" y="118" fill="#6f6690">PS D:\dev&gt;</text>
-      <text x="838" y="118" fill="#e6dfff">.\build.ps1</text>
+    <g>
+      <rect x="912" y="64" width="216" height="128" rx="14" fill="#0b0914" fill-opacity="0.78" stroke="#2c2344"/>
+      <g transform="translate(932 88)" fill="#b79bff">
+        <rect x="0" y="0" width="5" height="5" rx="1"/>
+        <rect x="8" y="0" width="5" height="5" rx="1"/>
+        <rect x="16" y="0" width="5" height="5" rx="1"/>
+        <rect x="0" y="8" width="5" height="5" rx="1"/>
+        <rect x="8" y="8" width="5" height="5" rx="1"/>
+        <rect x="16" y="8" width="5" height="5" rx="1"/>
+        <rect x="0" y="16" width="5" height="5" rx="1"/>
+        <rect x="8" y="16" width="5" height="5" rx="1"/>
+        <rect x="16" y="16" width="5" height="5" rx="1"/>
+      </g>
+      <text x="1108" y="86" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#6f6690">02</text>
+      <rect x="932" y="124" width="18" height="2" rx="1" fill="#8b6cff"/>
+      <text x="932" y="144" font-size="15" font-weight="600" fill="#e6dfff">9 个桌面组件</text>
+      <text x="932" y="166" font-size="10.5" fill="#8f86ab">日程 · 月历 · 时钟</text>
+      <text x="932" y="182" font-size="10.5" fill="#8f86ab">天气 · 番茄钟 · 便签</text>
+    </g>
 
-      <text x="758" y="148" fill="#4de1ff" fill-opacity="0.75">  Compiling</text>
-      <text x="838" y="148" fill="#b6add2">ucalendar v2.1.1</text>
+    <g>
+      <rect x="680" y="208" width="216" height="128" rx="14" fill="#0b0914" fill-opacity="0.78" stroke="#2c2344"/>
+      <g transform="translate(700 232)" fill="none" stroke="#b79bff" stroke-width="1.4" stroke-linejoin="round">
+        <path d="M10 1l2.2 6.8L19 10l-6.8 2.2L10 19l-2.2-6.8L1 10l6.8-2.2Z"/>
+      </g>
+      <text x="876" y="230" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#6f6690">03</text>
+      <rect x="700" y="268" width="18" height="2" rx="1" fill="#8b6cff"/>
+      <text x="700" y="288" font-size="15" font-weight="600" fill="#e6dfff">AI 小秘书</text>
+      <text x="700" y="310" font-size="10.5" fill="#8f86ab">会查也会改，</text>
+      <text x="700" y="326" font-size="10.5" fill="#8f86ab">写操作先确认。</text>
+    </g>
 
-      <text x="758" y="176" fill="#4de1ff" fill-opacity="0.75">   Finished</text>
-      <text x="838" y="176" fill="#b6add2">release [8.0 MB]</text>
-
-      <text x="758" y="206" fill="#6f6690">PS D:\dev&gt;</text>
-      <text x="838" y="206" fill="#e6dfff">.\UCalendar.exe</text>
-
-      <text x="758" y="236" fill="#7ee0b0">✓ tray + clock ready</text>
-
-      <text x="758" y="276" fill="#8b6cff">&gt;</text>
-      <rect x="774" y="265" width="8" height="14" fill="#b79bff">
-        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.2s" repeatCount="indefinite"/>
-      </rect>
+    <g>
+      <rect x="912" y="208" width="216" height="128" rx="14" fill="#0b0914" fill-opacity="0.78" stroke="#2c2344"/>
+      <g transform="translate(932 232)" fill="none" stroke="#b79bff" stroke-width="1.4" stroke-linejoin="round">
+        <path d="M10 1l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V4Z"/>
+        <path d="M6.5 10l2.5 2.5 5-5"/>
+      </g>
+      <text x="1108" y="230" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#6f6690">04</text>
+      <rect x="932" y="268" width="18" height="2" rx="1" fill="#8b6cff"/>
+      <text x="932" y="288" font-size="15" font-weight="600" fill="#e6dfff">本地优先</text>
+      <text x="932" y="310" font-size="10.5" fill="#8f86ab">0 账号 · 8 MB 单文件</text>
+      <text x="932" y="326" font-size="10.5" fill="#8f86ab">删掉 exe 即卸载</text>
     </g>
   </g>
 
-  <g>
-    <rect x="150" y="120" width="130" height="64" fill="url(#sweep)" opacity="0.09" transform="skewX(-18)">
-      <animateTransform attributeName="transform" type="translate" values="-260 0;1160 0" dur="7s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <rect x="0" y="377" width="1200" height="2" fill="url(#hair)"/>
+  <rect x="0" y="397" width="1200" height="2" fill="url(#hair)"/>
 </svg>
