@@ -28,7 +28,7 @@
 
 ## EDITIONS
 
-**Pro** — 9 个桌面组件 · 21 套主题 · 项目管理 / 便签管理 · 日迹 / 时间册导出 / 今日节奏<br>
+**Pro** — 9 个桌面组件 · 28 套主题 · 项目管理 / 便签管理 / 微信机器人 · 日迹 / 时间册导出 / 今日节奏<br>
 **Lite** — 6 个桌面组件 · 6 套主题 · 免费，保留日程 / 待办 / 月历 / 黄历 / 便签与 AI
 
 [下载 Pro](https://github.com/tobaba/UCalendar/releases/latest) &nbsp;·&nbsp;
@@ -44,7 +44,7 @@
 ## PRINCIPLES
 
 - **Local first** — 数据默认在自己的磁盘上；没有账号，没有云同步。
-- **Small on purpose** — 单文件约 9.1 MB，双击运行，删掉 exe 即卸载。
+- **Small on purpose** — 单文件约 9.2 MB，双击运行，删掉 exe 即卸载。
 - **Boring tech** — Tauri + Rust + React + SQLite；稳定比新潮重要。
 
 ## STACK
