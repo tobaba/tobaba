@@ -21,7 +21,7 @@
 日程、待办、项目、黄历、便签和 AI 小秘书，收在任务栏旁边的一个面板里；12 个桌面组件和自定义任务栏时钟，把今天放在桌面上。数据留在本机，单文件，不登录。
 
 <p align="center">
-  <img src="assets/showcase.png" width="100%" alt="UCalendar 主面板：月历、日程、待办、黄历、天气">
+  <img src="assets/showcase-v284.png" width="100%" alt="UCalendar 主面板：月历、日程、待办、黄历、天气">
 </p>
 
 <p align="center"><sub>点一下任务栏时钟，今天就在眼前。</sub></p>
@@ -38,7 +38,7 @@
 ## WIDGETS
 
 <p align="center">
-  <img src="assets/widgets.png" width="100%" alt="UCalendar 的 12 个桌面组件">
+  <img src="assets/widgets-v284.png" width="100%" alt="UCalendar 的 12 个桌面组件">
 </p>
 
 ## PRINCIPLES
