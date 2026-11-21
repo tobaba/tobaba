@@ -77,13 +77,13 @@
 
     <g font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8f86ab">
       <rect x="72" y="276" width="88" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
-      <text x="116" y="295" text-anchor="middle" fill="#cfc4ee">9 组件</text>
+      <text x="116" y="295" text-anchor="middle" fill="#cfc4ee">12 组件</text>
       <rect x="172" y="276" width="96" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
-      <text x="220" y="295" text-anchor="middle" fill="#cfc4ee">21 主题</text>
+      <text x="220" y="295" text-anchor="middle" fill="#cfc4ee">28 主题</text>
       <rect x="280" y="276" width="104" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
       <text x="332" y="295" text-anchor="middle" fill="#cfc4ee">本地优先</text>
       <rect x="396" y="276" width="82" height="30" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#2c2344"/>
-      <text x="437" y="295" text-anchor="middle" fill="#cfc4ee">8 MB</text>
+      <text x="437" y="295" text-anchor="middle" fill="#cfc4ee">10 MB</text>
     </g>
 
     <text x="72" y="356" font-family="Consolas, ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#5f567a">WINDOWS 10 / 11 · SINGLE FILE · NO ACCOUNT</text>
@@ -118,9 +118,9 @@
       </g>
       <text x="1108" y="86" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#6f6690">02</text>
       <rect x="932" y="124" width="18" height="2" rx="1" fill="#8b6cff"/>
-      <text x="932" y="144" font-size="15" font-weight="600" fill="#e6dfff">9 个桌面组件</text>
-      <text x="932" y="166" font-size="10.5" fill="#8f86ab">日程 · 月历 · 时钟</text>
-      <text x="932" y="182" font-size="10.5" fill="#8f86ab">天气 · 番茄钟 · 便签</text>
+      <text x="932" y="144" font-size="15" font-weight="600" fill="#e6dfff">12 个桌面组件</text>
+      <text x="932" y="166" font-size="10.5" fill="#8f86ab">日程 · 月历 · 天气</text>
+      <text x="932" y="182" font-size="10.5" fill="#8f86ab">股票 · 音乐 · 便签</text>
     </g>
 
     <g>
@@ -144,7 +144,7 @@
       <text x="1108" y="230" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="2" fill="#6f6690">04</text>
       <rect x="932" y="268" width="18" height="2" rx="1" fill="#8b6cff"/>
       <text x="932" y="288" font-size="15" font-weight="600" fill="#e6dfff">本地优先</text>
-      <text x="932" y="310" font-size="10.5" fill="#8f86ab">0 账号 · 8 MB 单文件</text>
+      <text x="932" y="310" font-size="10.5" fill="#8f86ab">0 账号 · 10 MB 单文件</text>
       <text x="932" y="326" font-size="10.5" fill="#8f86ab">删掉 exe 即卸载</text>
     </g>
   </g>
