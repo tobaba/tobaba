@@ -35,6 +35,14 @@
 [下载 Lite](https://github.com/tobaba/ucalendar-lite/releases/latest) &nbsp;·&nbsp;
 [版本说明](https://tobaba.github.io/ucalendar-site/#editions)
 
+## SUPPORT
+
+<p align="center">
+  <img src="assets/support-qr.png" width="220" alt="UCalendar 微信赞赏码">
+</p>
+
+<p align="center"><sub>Pro 20 元起自愿支持，一次支持，长期可用。扫码后请在赞赏留言中填写邮箱，作者会把支持码发到该邮箱。<br>Lite 永久免费，支持完全自愿。</sub></p>
+
 ## WIDGETS
 
 <p align="center">
