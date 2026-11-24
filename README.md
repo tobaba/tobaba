@@ -38,7 +38,7 @@
 ## SUPPORT
 
 <p align="center">
-  <img src="assets/support-qr.png" width="220" alt="UCalendar 微信收款码">
+  <img src="assets/support-qr.png?v=3.0.0" width="220" alt="UCalendar 微信收款码">
 </p>
 
 <p align="center"><sub>Pro 20 元起自愿支持，一次支持，长期可用。扫码付款后请在付款备注中填写邮箱，作者会把支持码发到该邮箱。<br>Lite 永久免费，支持完全自愿。</sub></p>
