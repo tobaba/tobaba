@@ -21,7 +21,7 @@
 日程、待办、项目、黄历、便签和 AI 小秘书，收在任务栏旁边的一个面板里；12 个桌面组件和自定义任务栏时钟，把今天放在桌面上。数据留在本机，单文件，不登录。
 
 <p align="center">
-  <img src="assets/showcase-v284.png" width="100%" alt="UCalendar 主面板：月历、日程、待办、黄历、天气">
+  <img src="assets/showcase-v300.png" width="100%" alt="UCalendar 3.0 主面板：月历、日程、待办、黄历、天气">
 </p>
 
 <p align="center"><sub>点一下任务栏时钟，今天就在眼前。</sub></p>
@@ -38,21 +38,21 @@
 ## SUPPORT
 
 <p align="center">
-  <img src="assets/support-qr.png" width="220" alt="UCalendar 微信赞赏码">
+  <img src="assets/support-qr.png" width="220" alt="UCalendar 微信收款码">
 </p>
 
-<p align="center"><sub>Pro 20 元起自愿支持，一次支持，长期可用。扫码后请在赞赏留言中填写邮箱，作者会把支持码发到该邮箱。<br>Lite 永久免费，支持完全自愿。</sub></p>
+<p align="center"><sub>Pro 20 元起自愿支持，一次支持，长期可用。扫码付款后请在付款备注中填写邮箱，作者会把支持码发到该邮箱。<br>Lite 永久免费，支持完全自愿。</sub></p>
 
 ## WIDGETS
 
 <p align="center">
-  <img src="assets/widgets-v284.png" width="100%" alt="UCalendar 的 12 个桌面组件">
+  <img src="assets/widgets-v300.png" width="100%" alt="UCalendar 的 12 个桌面组件">
 </p>
 
 ## PRINCIPLES
 
 - **Local first** — 数据默认在自己的磁盘上；没有账号，没有云同步。
-- **Small on purpose** — 单文件约 10.3 MB，双击运行，删掉 exe 即卸载。
+- **Small on purpose** — 单文件 9.9 MB，双击运行，删掉 exe 即卸载。
 - **Boring tech** — Tauri + Rust + React + SQLite；稳定比新潮重要。
 
 ## STACK
