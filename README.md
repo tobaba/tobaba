@@ -46,7 +46,7 @@
 ## WIDGETS
 
 <p align="center">
-  <img src="assets/widgets-v300.png" width="100%" alt="UCalendar 桌面组件图集">
+  <img src="assets/widgets-v310.png" width="100%" alt="UCalendar 15 个桌面组件：月历、日程、天气、番茄钟、便签、倒计时、世界时钟、秒表、时间进度、项目、股票、音乐、每日打卡、系统监控、课程表">
 </p>
 
 ## PRINCIPLES
