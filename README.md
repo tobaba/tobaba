@@ -18,7 +18,7 @@
 
 独立开发者，做 Windows 桌面工具。现在主要在做 **UCalendar**。
 
-日程、待办、项目、黄历、便签和 AI 小秘书，收在任务栏旁边的一个面板里；15 个桌面组件会自动排成对齐的列，自定义任务栏时钟把今天放在桌面上。数据留在本机，单文件，不登录。
+日程、待办、项目、黄历、便签和 AI 小秘书，收在任务栏旁边的一个面板里；16 个桌面组件会自动排成对齐的列，自定义任务栏时钟把今天放在桌面上。数据留在本机，单文件，不登录。
 
 <p align="center">
   <img src="assets/showcase-v300.png" width="100%" alt="UCalendar 主面板：月历、日程、待办、黄历、天气">
@@ -28,7 +28,7 @@
 
 ## EDITIONS
 
-**Pro** — 15 个桌面组件 · 28 套主题 · 自定义任务栏时钟 · 项目管理 / 便签管理 / 微信机器人 · 日迹 / 时间册导出 / 今日节奏 · 每日打卡 / 系统监控 / 课程表<br>
+**Pro** — 16 个桌面组件 · 28 套主题 · 自定义任务栏时钟 · 项目管理 / 便签管理 / 微信机器人 · 日迹 / 时间册导出 / 今日节奏 · 每日打卡 / 系统监控 / 课程表 / 剪贴板历史<br>
 **Lite** — 6 个桌面组件 · 6 套主题 · 免费，保留日程 / 待办 / 月历 / 黄历 / 便签与 AI
 
 [下载 Pro](https://github.com/tobaba/UCalendar/releases/latest) &nbsp;·&nbsp;
@@ -46,13 +46,13 @@
 ## WIDGETS
 
 <p align="center">
-  <img src="assets/widgets-v310.png" width="100%" alt="UCalendar 15 个桌面组件：月历、日程、天气、番茄钟、便签、倒计时、世界时钟、秒表、时间进度、项目、股票、音乐、每日打卡、系统监控、课程表">
+  <img src="assets/widgets-v320.png" width="100%" alt="UCalendar 16 个桌面组件：月历、日程、天气、番茄钟、便签、倒计时、世界时钟、秒表、时间进度、项目、股票、音乐、每日打卡、系统监控、课程表、剪贴板历史">
 </p>
 
 ## PRINCIPLES
 
 - **Local first** — 数据默认在自己的磁盘上；没有账号，没有云同步。
-- **Small on purpose** — 单文件 10.1 MB，双击运行，删掉 exe 即卸载。
+- **Small on purpose** — 单文件 11.2 MB，双击运行，删掉 exe 即卸载。
 - **Boring tech** — Tauri + Rust + React + SQLite；稳定比新潮重要。
 
 ## STACK
